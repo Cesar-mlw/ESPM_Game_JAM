@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour {
 
 	private void FixedUpdate() {
 		if(Input.GetKey(KeyCode.LeftControl)){
-			jetpackForce += 0.5f;
+			jetpackForce += 0.8f;
 			
 			Shoot(jetpackForce);
 		}
