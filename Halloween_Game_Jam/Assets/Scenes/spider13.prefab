@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33307286033935188}
   - component: {fileID: 23118717194466510}
   - component: {fileID: 95156849666130366}
+  - component: {fileID: 54403731866931496}
   m_Layer: 0
   m_Name: spider13
   m_TagString: Untagged
@@ -57,7 +58,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100002, guid: f59ae6533cdf9ec4ab8b71e616dddc37, type: 3}
+  - {fileID: 2100000, guid: a477a08549e71b9478d71517b76427e2, type: 2}
   - {fileID: 2100004, guid: f59ae6533cdf9ec4ab8b71e616dddc37, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -85,6 +86,21 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1923988858308084}
   m_Mesh: {fileID: 4300002, guid: f59ae6533cdf9ec4ab8b71e616dddc37, type: 3}
+--- !u!54 &54403731866931496
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1923988858308084}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!95 &95156849666130366
 Animator:
   serializedVersion: 3
